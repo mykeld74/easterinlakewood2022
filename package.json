@@ -36,6 +36,7 @@
 	"type": "module",
 	"dependencies": {
 		"gsap": "^3.9.1",
-		"netlify-cli": "^9.13.5"
+		"netlify-cli": "^9.13.5",
+		"svelte-cloudinary": "^0.2.5"
 	}
 }
