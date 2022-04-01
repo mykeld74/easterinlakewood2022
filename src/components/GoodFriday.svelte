@@ -2,7 +2,7 @@
 	import Block from '$components/block.svelte';
 	let blockClass = 'GoodFriday';
 	let id = 'GoodFriday';
-	import Img from '$components/image.svelte';
+	import Img from '$components/Image.svelte';
 </script>
 
 <Block {blockClass} {id}>
