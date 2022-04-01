@@ -1,7 +1,7 @@
 <script>
 	import '$css/reset.css';
 	import '$css/style.css';
-	import Img from '$components/image.svelte';
+	import Img from '$components/Image.svelte';
 </script>
 
 <svelte:head>
