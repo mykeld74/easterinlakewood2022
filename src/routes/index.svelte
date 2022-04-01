@@ -1,9 +1,11 @@
 <script>
-	import Block from '../components/block.svelte';
-	import Image from '../components/image.svelte';
+	import EasterSunday from '$components/EasterSunday.svelte';
+	import EEH from '$components/EasterEggHunt.svelte';
+	import GoodFriday from '$components/GoodFriday.svelte';
+	import Directions from '$components/Directions.svelte';
 </script>
 
-<Block>
-	<h1>Hello world!</h1>
-	<Image source="crossandtomb.jpg" altTag="Cross and Tomb" />
-</Block>
+<EasterSunday />
+<EEH />
+<GoodFriday />
+<Directions />

@@ -1,0 +1,17 @@
+html{
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+}
+.desc{
+  font-size: clamp(26px, 3vw, 34px);
+  text-align: center;
+  max-width: 840px;
+  margin:  20px auto;
+  line-height: 1.4;
+  color: #fff;
+}
+.contentContainer {
+  width: 90vw;
+  margin: 20px auto;
+
+}
