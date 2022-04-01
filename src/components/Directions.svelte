@@ -2,7 +2,6 @@
 	import Block from '$components/block.svelte';
 	let blockClass = 'directions';
 	let id = 'Directions';
-	import Img from '$components/image.svelte';
 </script>
 
 <Block {blockClass} {id}>

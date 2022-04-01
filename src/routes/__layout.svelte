@@ -1,6 +1,7 @@
 <script>
 	import '$css/reset.css';
 	import '$css/style.css';
+	// @ts-ignore
 	import Img from '$components/Image.svelte';
 </script>
 

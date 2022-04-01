@@ -1,5 +1,5 @@
 <script>
-	import Block from '../components/block.svelte';
+	import Block from '$components/block.svelte';
 	let blockClass = 'eeh-block';
 	let id = 'EasterEggHunt';
 </script>
