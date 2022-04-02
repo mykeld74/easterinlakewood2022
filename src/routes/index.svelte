@@ -5,6 +5,9 @@
 	import Directions from '$components/Directions.svelte';
 </script>
 
+<svelte:head>
+	<title>Easter In Lakewood | Westwoods Community Church</title>
+</svelte:head>
 <EasterSunday />
 <EEH />
 <GoodFriday />

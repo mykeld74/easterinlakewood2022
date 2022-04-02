@@ -1,8 +1,7 @@
 <script>
+	import Img from '$components/Image.svelte';
 	import '$css/reset.css';
 	import '$css/style.css';
-	// @ts-ignore
-	import Img from '$components/Image.svelte';
 </script>
 
 <svelte:head>
@@ -25,7 +24,9 @@
 <slot />
 <footer>
 	<div class="imgContainer">
-		<Img source="wwccLogo" altTag="Westwoods Community Church Logo" />
+		<a href="https://westwoodscc.org" target="_blank" rel="noopener noreferrer"
+			><Img source="wwccLogo" altTag="Westwoods Community Church Logo" /></a
+		>
 	</div>
 </footer>
 
@@ -76,6 +77,9 @@
 		background: transparent;
 		display: flex;
 		justify-content: flex-end;
+		@media (max-width: 450px) {
+			display: none;
+		}
 		.imgContainer {
 			width: 150px;
 			margin: 0 20px 20px 0;

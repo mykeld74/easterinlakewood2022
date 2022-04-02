@@ -1,5 +1,6 @@
 <script>
 	import Block from '$components/block.svelte';
+	import Img from '$components/Image.svelte';
 	let blockClass = 'directions';
 	let id = 'Directions';
 </script>
@@ -24,6 +25,11 @@
 			</p>
 		</div>
 	</div>
+	<div class="logoContainer">
+		<a href="https://westwoodscc.org" target="_blank" rel="noopener noreferrer"
+			><Img source="wwccLogo" altTag="Westwoods Community Church Logo" /></a
+		>
+	</div>
 </Block>
 
 <style lang="scss">
@@ -31,6 +37,7 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		width: 90%;
+		max-width: 1170px;
 		margin: 0 auto;
 		padding: 0;
 		gap: 30px;
@@ -59,5 +66,15 @@
 	#wwMap {
 		width: 100%;
 		aspect-ratio: 16/9;
+	}
+	.logoContainer {
+		display: none;
+		@media (max-width: 449px) {
+			display: block;
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
+			width: 150px;
+		}
 	}
 </style>
